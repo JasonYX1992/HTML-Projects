@@ -2,11 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test</title>
+    <title>Test Layout</title>
+    <style>
+        div {
+            height:200px;
+            background:blue;
+        }
+
+        #left {
+            width:500px;
+            float:left;
+            background:green;
+        }
+
+        #right {
+            width:500px;
+            float:right;
+            background:red;
+        }
+
+        #footer {
+            background:gray;
+            clear:both;
+        }
+    </style>
 </head>
 <body>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div id="header"></div>
+    <div id="left">left side</div>
+    <div id="right">right side</div>
+    <div id="footer"></div>
 </body>
 </html>
