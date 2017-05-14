@@ -5,32 +5,41 @@
     <title>Test Layout</title>
     <style>
         #container {
-            width:1002px;
+            width:1350px;
             background:gray;
+            margin:40px 100px 40px 100px;
         }
 
         #header {
             height:120px;
-            background:orange;
+            background:cadetblue;
+            padding:10px;
         }
 
         #main {
             height:600px;
-            background:green;
         }
 
         #leftside {
             width:700px;
             height:600px;
             float:left;
-            background:pink;
+            background:whitesmoke;
+        }
+
+        .four {
+            width:330px;
+            height:280px;
+            float:left;
+            background:white;
+            margin:10px;
         }
 
         #rightside {
-            width:302px;
+            width:650px;
             height:600px;
             float:right;
-            background:mediumpurple;
+            background:darkslateblue;
         }
 
         #footer {
@@ -41,9 +50,14 @@
 </head>
 <body>
     <div id="container">
-        <div id="header"></div>
+        <div id="header">Jason_Yang's Website</div>
         <div id="main">
-            <div id="leftside"></div>
+            <div id="leftside">
+                <div class="four"></div>
+                <div class="four"></div>
+                <div class="four"></div>
+                <div class="four"></div>
+            </div>
             <div id="rightside"></div>
         </div>
         <div id="footer"></div>
