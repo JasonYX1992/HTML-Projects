@@ -4,33 +4,50 @@
     <meta charset="UTF-8">
     <title>Test Layout</title>
     <style>
-        div {
-            height:200px;
-            background:blue;
+        #container {
+            width:1002px;
+            background:gray;
         }
 
-        #left {
-            width:500px;
-            float:left;
+        #header {
+            height:120px;
+            background:orange;
+        }
+
+        #main {
+            height:600px;
             background:green;
         }
 
-        #right {
-            width:500px;
+        #leftside {
+            width:700px;
+            height:600px;
+            float:left;
+            background:pink;
+        }
+
+        #rightside {
+            width:302px;
+            height:600px;
             float:right;
-            background:red;
+            background:mediumpurple;
         }
 
         #footer {
-            background:gray;
-            clear:both;
+            height:120px;
+            background:cadetblue;
         }
     </style>
 </head>
 <body>
-    <div id="header"></div>
-    <div id="left">left side</div>
-    <div id="right">right side</div>
-    <div id="footer"></div>
+    <div id="container">
+        <div id="header"></div>
+        <div id="main">
+            <div id="leftside"></div>
+            <div id="rightside"></div>
+        </div>
+        <div id="footer"></div>
+    </div>
+
 </body>
 </html>
